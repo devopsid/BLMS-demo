@@ -7,8 +7,6 @@ on:
       - 'releases**'
 jobs:
   build-and-test:
-
-    runs-on: [self-hosted, onprem]
-
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Build and test application"
